@@ -22,3 +22,6 @@ BSPLAYERS = " \
   ${OEROOT}/layers/meta-sunxi \
   ${OEROOT}/layers/meta-lmp/meta-lmp-bsp \
 "
+
+# https://github.com/STMicroelectronics/meta-st-stm32mp/pull/48
+LAYERSERIES_COMPAT_stm-st-stm32mp:append = " mickledore"
